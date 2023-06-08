@@ -1,11 +1,9 @@
 /* Title: Bluetooth Transmitter Code
  * Author: Aleksi Hieta
  * Date: 4/25/2023
- * Purpose: Transmitter portion of two way communications between
+ * Purpose: Transmitter portion of one way communication between
  * remote and board for skateboard project. Utilizing a pair
- * of NRF24L01+ chips (datasheet below). Code allows for a button
- * press to be sent from both 'receiver' and 'transmitter' with a receiving 
- * LED on the opposite board.
+ * of NRF24L01+ chips (datasheet below).
  * Reference: Dejan Nedelkovski, www.HowToMechatronics.com
  * Datasheet: https://www.mouser.com/datasheet/2/297/nRF24L01_Product_Specification_v2_0-9199.pdf
  * Library: TMRh20/RF24, https://github.com/tmrh20/RF24/
