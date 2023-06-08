@@ -34,7 +34,7 @@ void bldc_move(){        // BLDC motor commutation function
       digitalWrite(HI_A, HIGH);
       digitalWrite(LO_B, HIGH);
 
-      //BEMF_C_RISING();
+     
       //write low HI_B, HI_C, LO_A, LO_C
       digitalWrite(HI_B, LOW);
       digitalWrite(HI_C, LOW);
@@ -45,7 +45,7 @@ void bldc_move(){        // BLDC motor commutation function
       //AH_CL();
       digitalWrite(HI_A, HIGH);
       digitalWrite(LO_C, HIGH);
-      //BEMF_B_FALLING();
+      
       //write low HI_B, HI_C, LO_A, LO_B
       digitalWrite(HI_B, LOW);
       digitalWrite(HI_C, LOW);
@@ -56,7 +56,7 @@ void bldc_move(){        // BLDC motor commutation function
       //BH_CL();
       digitalWrite(HI_B, HIGH);
       digitalWrite(LO_C, HIGH);
-      //BEMF_A_RISING();
+      
       //write low HI_A, HI_C, LO_A, LO_B
       digitalWrite(HI_A, LOW);
       digitalWrite(HI_C, LOW);
@@ -67,7 +67,7 @@ void bldc_move(){        // BLDC motor commutation function
       //BH_AL();
       digitalWrite(HI_B, HIGH);
       digitalWrite(LO_A, HIGH);
-      //BEMF_C_FALLING();
+     
       //write low HI_A, HI_C, LO_B, LO_C
       digitalWrite(HI_A, LOW);
       digitalWrite(HI_C, LOW);
@@ -78,7 +78,7 @@ void bldc_move(){        // BLDC motor commutation function
       //CH_AL();
       digitalWrite(HI_C, HIGH);
       digitalWrite(LO_A, HIGH);
-      //BEMF_B_RISING();
+      
       //write low HI_A, HI_B, LO_B, LO_C
       digitalWrite(HI_A, LOW);
       digitalWrite(HI_B, LOW);
@@ -89,7 +89,7 @@ void bldc_move(){        // BLDC motor commutation function
       //CH_BL();
       digitalWrite(HI_C, HIGH);
       digitalWrite(LO_B, HIGH);
-      //BEMF_A_FALLING();
+     
       //write low HI_A, HI_B, LO_A, LO_C
       digitalWrite(HI_A, LOW);
       digitalWrite(HI_B, LOW);
